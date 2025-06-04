@@ -1,4 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Khung.Master.cs" Inherits="QuanLyHoKhau.Site1" %>
+<!--<%@ Register Src="~/UserControl/Dau.ascx" TagPrefix="uc1" TagName="Dau"%>-->
+<%@ Register Src="~/UserControl/Menungang.ascx" TagPrefix="uc1" TagName="Menungang" %>
+<%@ Register Src="~/usercontrol/Chan.ascx" TagPrefix="uc1" TagName="Chan" %>
 
 
 
@@ -8,6 +11,11 @@
 <html>
 <head runat="server">
     <title></title>
+    <style>
+        body{
+            margin: 0;
+        }
+    </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
@@ -43,8 +51,8 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td colspan="3" class="auto-style1">
-
+                    <td colspan="3">
+                        <uc1:Chan runat="server" id="Chan" />
                     </td>
                 </tr>
             </table>

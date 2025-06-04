@@ -7,74 +7,65 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QuanLyHoKhau
+namespace QuanLyHoKhau.UserControl
 {
 
 
-    public partial class Site1
+    public partial class Chan
     {
 
         /// <summary>
-        /// head control.
+        /// hplDk control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.HyperLink hplDk;
 
         /// <summary>
-        /// form1 control.
+        /// hplCs control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.HyperLink hplCs;
 
         /// <summary>
-        /// Dau control.
+        /// hplGt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::QuanLyHoKhau.UserControl.Dau Dau;
+        protected global::System.Web.UI.WebControls.HyperLink hplGt;
 
         /// <summary>
-        /// Menungang control.
+        /// hplHd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::QuanLyHoKhau.UserControl.Menungang Menungang;
+        protected global::System.Web.UI.WebControls.HyperLink hplHd;
 
         /// <summary>
-        /// Menudoc control.
+        /// hplCh control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::QuanLyHoKhau.UserControl.Menudoc Menudoc;
+        protected global::System.Web.UI.WebControls.HyperLink hplCh;
 
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// hplLh control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
-
-        /// <summary>
-        /// Chan control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::QuanLyHoKhau.UserControl.Chan Chan;
+        protected global::System.Web.UI.WebControls.HyperLink hplLh;
     }
 }
