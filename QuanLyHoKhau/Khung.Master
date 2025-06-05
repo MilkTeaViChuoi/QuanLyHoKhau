@@ -14,11 +14,14 @@
         .auto-style1 {
             height: 23px;
         }
+        .body{
+            height:100vh;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div style="height:100vh">
             <table style="width: 100%;border: solid black 1px">
                 <tr>
                     <td colspan="3">
@@ -40,7 +43,9 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td colspan="3" class="auto-style1"></td>
+                    <td colspan="3" class="auto-style1">
+
+                    </td>
                 </tr>
             </table>
 

@@ -4,7 +4,7 @@
     <div class="sidebar-header">
         <div class="logo">
             <i class="fas fa-chart-line"></i>
-            <span class="logo-text">Analytics</span>
+            <span class="logo-text">Quản lý hộ khẩu</span>
         </div>
         <button class="toggle-btn" onclick="toggleSidebar()">
             <i class="fas fa-bars"></i>
@@ -37,49 +37,25 @@
                     <span class="nav-text">Quản lý tạm vắng</span>
                 </a>
             </li>
-            
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-envelope"></i>
-                    <span class="nav-text">Messages</span>
-                    <span class="badge">5</span>
-                </a>
-            </li>
         </ul>
         
         <div class="nav-divider"></div>
         
-        <ul class="nav-list">
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-cog"></i>
-                    <span class="nav-text">Settings</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-question-circle"></i>
-                    <span class="nav-text">Help</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-sign-out-alt"></i>
-                    <span class="nav-text">Logout</span>
-                </a>
-            </li>
-        </ul>
+       
     </nav>
 </div>
 
 <style>
 .sidebar {
-    width: 220px;
+    width: 230px;
+    
+    margin-bottom: 0px;
     height: 100vh;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: rgba(128, 190, 230, 0.1);
     position: fixed;
-    left: 0;
-    top: 0;
+    left: 10px;
+    bottom: 100px;
+    top: 200px;
     z-index: 1000;
     transition: all 0.3s ease;
     overflow-y: auto;
@@ -92,7 +68,7 @@
 
 .sidebar-header {
     padding: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgb(80, 199, 188);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,7 +77,7 @@
 .logo {
     display: flex;
     align-items: center;
-    color: white;
+    color:rgba(255, 255, 255, 0.3);
     font-size: 18px;
     font-weight: 600;
 }
@@ -109,7 +85,7 @@
 .logo i {
     font-size: 24px;
     margin-right: 12px;
-    color: #ffd700;
+    color: rgb(159, 169, 225);
 }
 
 .logo-text {
@@ -124,7 +100,7 @@
 .toggle-btn {
     background: none;
     border: none;
-    color: white;
+    color: black;
     font-size: 18px;
     cursor: pointer;
     padding: 8px;
@@ -133,7 +109,7 @@
 }
 
 .toggle-btn:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(113, 89, 89, 0.3);
 }
 
 .sidebar-nav {
@@ -154,7 +130,7 @@
     display: flex;
     align-items: center;
     padding: 12px 16px;
-    color: rgba(255, 255, 255, 0.8);
+    color:rgb(18, 18, 18);
     text-decoration: none;
     border-radius: 8px;
     transition: all 0.3s ease;
@@ -163,14 +139,15 @@
 }
 
 .nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
+    background-color: #d6e6f2; /* Màu nền xanh nhạt */
+    color: #0c2d57;           /* Màu chữ đậm khi hover */
     transform: translateX(4px);
 }
 
+
 .nav-item.active .nav-link {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
+    background-color: rgb(237, 193, 71);
+    color: wheat;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -194,7 +171,7 @@
 
 .badge {
     background-color: #ff4757;
-    color: white;
+    color:lightskyblue;
     font-size: 11px;
     padding: 2px 6px;
     border-radius: 10px;
@@ -208,7 +185,7 @@
 
 .nav-divider {
     height: 1px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(162, 228, 200);
     margin: 20px 12px;
 }
 
@@ -241,37 +218,3 @@
     background: rgba(255, 255, 255, 0.5);
 }
 </style>
-
-<script>
-function toggleSidebar() {
-    const sidebar = document.querySelector('.sidebar');
-    sidebar.classList.toggle('collapsed');
-    
-    // Save state to localStorage
-    localStorage.setItem('sidebarCollapsed', sidebar.classList.contains('collapsed'));
-}
-
-// Restore sidebar state on page load
-document.addEventListener('DOMContentLoaded', function() {
-    const isCollapsed = localStorage.getItem('sidebarCollapsed') === 'true';
-    if (isCollapsed) {
-        document.querySelector('.sidebar').classList.add('collapsed');
-    }
-});
-
-// Mobile menu toggle
-function toggleMobileMenu() {
-    const sidebar = document.querySelector('.sidebar');
-    sidebar.classList.toggle('show');
-}
-
-// Close mobile menu when clicking outside
-document.addEventListener('click', function(e) {
-    const sidebar = document.querySelector('.sidebar');
-    const toggleBtn = document.querySelector('.toggle-btn');
-    
-    if (window.innerWidth <= 768 && !sidebar.contains(e.target) && !toggleBtn.contains(e.target)) {
-        sidebar.classList.remove('show');
-    }
-});
-</script>
