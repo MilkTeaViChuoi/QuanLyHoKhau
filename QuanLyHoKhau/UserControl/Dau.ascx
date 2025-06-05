@@ -44,8 +44,7 @@
 </style>
 <div class="Khung">
     <div class="logo">
-        <img src="../Images/Quochuy.png" class="img" />
-    </div>
+        <img src="../Images/Quochuy.png" class="img" /> </div>
     <div class="chu">
         HỆ THỐNG QUẢN LÝ HỘ KHẨU
         <br />

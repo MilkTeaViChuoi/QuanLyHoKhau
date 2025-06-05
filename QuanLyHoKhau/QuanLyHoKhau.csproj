@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\QuanLyHoKhau.dll" />
+    <Content Include="bin\QuanLyHoKhau.pdb" />
     <Content Include="Images\Quochuy.png" />
     <Content Include="Pages\Trangchu.aspx" />
     <Content Include="UserControl\Dau.ascx" />
@@ -113,6 +117,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\QuanLyHoKhau.dll.config" />
     <None Include="packages.config" />
     <Content Include="Khung.Master" />
     <None Include="Web.Debug.config">
