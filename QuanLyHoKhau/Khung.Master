@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Khung.Master.cs" Inherits="QuanLyHoKhau.Site1" %>
-<!--<%@ Register Src="~/UserControl/Dau.ascx" TagPrefix="uc1" TagName="Dau"%>-->
+<%@ Register Src="~/UserControl/Dau.ascx" TagPrefix="uc1" TagName="Dau"%>
 <%@ Register Src="~/UserControl/Menungang.ascx" TagPrefix="uc1" TagName="Menungang" %>
 <%@ Register Src="~/usercontrol/Chan.ascx" TagPrefix="uc1" TagName="Chan" %>
 
@@ -16,47 +16,32 @@
             margin: 0;
         }
     </style>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
-    <style type="text/css">
-        .auto-style1 {
-            height: 23px;
-        }
-        .body{
-            height:100vh;
-        }
-    </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="height:100vh">
-            <table style="width: 100%;border: solid black 1px">
-                <tr>
-                    <td colspan="3">
-                        <uc1:Dau runat="server" ID="Dau" />
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <uc1:Menungang runat="server" id="Menungang" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <uc1:Menudoc runat="server" ID="Menudoc" />
-                    </td>
-                    <td>            
-                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                        </asp:ContentPlaceHolder></td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <uc1:Chan runat="server" id="Chan" />
-                    </td>
-                </tr>
-            </table>
+        <div class="Khung">
+            <div>
+                <uc1:Dau runat="server" ID="Dau" />
 
+            </div>
+            <div>
+                <uc1:Menungang runat="server" id="Menungang" />
+
+            </div>
+            <div>
+                <div>
+                    <uc1:Menudoc runat="server" ID="Menudoc" />
+
+                </div>
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                     </asp:ContentPlaceHolder>
+                </div>
+                <div></div>
+            </div>
+            <div>
+                <uc1:Chan runat="server" id="Chan" />
+            </div>
         </div>
     </form>
 </body>

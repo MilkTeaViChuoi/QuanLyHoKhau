@@ -1,6 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Chan.ascx.cs" Inherits="QuanLyHoKhau.UserControl.Chan" %>
 <style>
     .cuoi{
+        width:100%;
         display: flex;
         justify-content: space-between;
         background-color: wheat;
