@@ -23,9 +23,6 @@
         .auto-style1 {
             height: 23px;
         }
-        .body{
-            height:100vh;
-        }
     </style>
 </head>
 <body>

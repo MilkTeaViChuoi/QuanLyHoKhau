@@ -1,6 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Chan.ascx.cs" Inherits="QuanLyHoKhau.UserControl.Chan" %>
 <style>
     .cuoi{
+        width:100%;
         display: flex;
         justify-content: space-between;
         background-color: wheat;
@@ -14,7 +15,6 @@
 <div class="cuoi">
     <div class="gioithieu">
         <p>Thực hiện: Trần Công Hiếu_2200448</p>
-        <p style="margin-left: 40px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nguyễn Thị Xuân Mai_2200398</p>
         <p>Khóa: K4618_CNTT1</p>
         <p>Giáo viên hướng dẫn: Ngô Thị Lan</p>
         <p>Trường ĐHCN Việt - Hung</p>
