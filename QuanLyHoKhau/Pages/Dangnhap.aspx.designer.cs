@@ -7,21 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QuanLyHoKhau
+namespace QuanLyHoKhau.Pages
 {
 
 
-    public partial class Site1
+    public partial class Dangnhap
     {
-
-        /// <summary>
-        /// head control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
         /// form1 control.
@@ -33,48 +24,57 @@ namespace QuanLyHoKhau
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Dau control.
+        /// lbDn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::QuanLyHoKhau.UserControl.Dau Dau;
+        protected global::System.Web.UI.WebControls.Label lbDn;
 
         /// <summary>
-        /// Menungang control.
+        /// txtTendn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::QuanLyHoKhau.UserControl.Menungang Menungang;
+        protected global::System.Web.UI.WebControls.TextBox txtTendn;
 
         /// <summary>
-        /// Menudoc control.
+        /// lbMatkhau control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::QuanLyHoKhau.UserControl.Menudoc Menudoc;
+        protected global::System.Web.UI.WebControls.Label lbMatkhau;
 
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// txtMatkhau control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.TextBox txtMatkhau;
 
         /// <summary>
-        /// Chan control.
+        /// btDangnhap control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::QuanLyHoKhau.UserControl.Chan Chan;
+        protected global::System.Web.UI.WebControls.Button btDangnhap;
+
+        /// <summary>
+        /// lbThongbao control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbThongbao;
     }
 }

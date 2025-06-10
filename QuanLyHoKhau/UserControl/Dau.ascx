@@ -51,6 +51,6 @@
         Ủy ban nhân dân phường Xuân Khanh
     </div>
     <div class="dn">
-        <asp:Button ID="btDn" runat="server" Text="Đăng nhập" CssClass="nut" />
+        <asp:Button ID="btDn" runat="server" Text="Đăng nhập" CssClass="nut" OnClick="btDn_Click" />
     </div>
 </div>

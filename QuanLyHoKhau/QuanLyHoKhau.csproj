@@ -72,7 +72,16 @@
     <Content Include="bin\QuanLyHoKhau.dll" />
     <Content Include="bin\QuanLyHoKhau.pdb" />
     <Content Include="Images\Quochuy.png" />
+    <Content Include="Pages\Cauhoi.aspx" />
+    <Content Include="Pages\Chinhsach.aspx" />
+    <Content Include="Pages\Dangnhap.aspx" />
+    <Content Include="Pages\Dieukhoan.aspx" />
+    <Content Include="Pages\Gioithieu.aspx" />
+    <Content Include="Pages\Hokhau.aspx" />
+    <Content Include="Pages\Huongdan.aspx" />
+    <Content Include="Pages\Lienhe.aspx" />
     <Content Include="Pages\Trangchu.aspx" />
+    <Content Include="UserControl\Chan.ascx" />
     <Content Include="UserControl\Dau.ascx" />
     <Content Include="UserControl\Menudoc.ascx" />
     <Content Include="UserControl\Menungang.ascx" />
@@ -86,6 +95,62 @@
     <Compile Include="Khung.Master.designer.cs">
       <DependentUpon>Khung.Master</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Cauhoi.aspx.cs">
+      <DependentUpon>Cauhoi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Cauhoi.aspx.designer.cs">
+      <DependentUpon>Cauhoi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Chinhsach.aspx.cs">
+      <DependentUpon>Chinhsach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Chinhsach.aspx.designer.cs">
+      <DependentUpon>Chinhsach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dangnhap.aspx.cs">
+      <DependentUpon>Dangnhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dangnhap.aspx.designer.cs">
+      <DependentUpon>Dangnhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dieukhoan.aspx.cs">
+      <DependentUpon>Dieukhoan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dieukhoan.aspx.designer.cs">
+      <DependentUpon>Dieukhoan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Gioithieu.aspx.cs">
+      <DependentUpon>Gioithieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Gioithieu.aspx.designer.cs">
+      <DependentUpon>Gioithieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Hokhau.aspx.cs">
+      <DependentUpon>Hokhau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Hokhau.aspx.designer.cs">
+      <DependentUpon>Hokhau.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Huongdan.aspx.cs">
+      <DependentUpon>Huongdan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Huongdan.aspx.designer.cs">
+      <DependentUpon>Huongdan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lienhe.aspx.cs">
+      <DependentUpon>Lienhe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Lienhe.aspx.designer.cs">
+      <DependentUpon>Lienhe.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Trangchu.aspx.cs">
       <DependentUpon>Trangchu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -94,6 +159,13 @@
       <DependentUpon>Trangchu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl\Chan.ascx.cs">
+      <DependentUpon>Chan.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl\Chan.ascx.designer.cs">
+      <DependentUpon>Chan.ascx</DependentUpon>
+    </Compile>
     <Compile Include="UserControl\Dau.ascx.cs">
       <DependentUpon>Dau.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
