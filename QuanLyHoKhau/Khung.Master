@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Khung.Master.cs" Inherits="QuanLyHoKhau.Site1" %>
-<!--<%@ Register Src="~/UserControl/Dau.ascx" TagPrefix="uc1" TagName="Dau"%>-->
+<%@ Register Src="~/UserControl/Dau.ascx" TagPrefix="uc1" TagName="Dau"%>
 <%@ Register Src="~/UserControl/Menungang.ascx" TagPrefix="uc1" TagName="Menungang" %>
 <%@ Register Src="~/usercontrol/Chan.ascx" TagPrefix="uc1" TagName="Chan" %>
 
@@ -41,7 +41,6 @@
                 </tr>
                 <tr>
                     <td>
-                        <uc1:Menudoc runat="server" ID="Menudoc" />
                     </td>
                     <td>            
                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

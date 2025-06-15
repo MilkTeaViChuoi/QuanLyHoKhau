@@ -44,10 +44,10 @@
         IncludeStyleBlock="false" CssClass="menuto">
         <Items>
             <asp:MenuItem Text="Trang chủ" Value="Trang chủ" NavigateUrl="~/Pages/Trangchu.aspx"></asp:MenuItem>
-            <asp:MenuItem Text="Hộ gia đình" Value="Hộ gia đình"></asp:MenuItem>
-            <asp:MenuItem Text="Nhân khẩu" Value="Nhân khẩu"></asp:MenuItem>
-            <asp:MenuItem Text="Tạm trú" Value="Tạm trú"></asp:MenuItem>
-            <asp:MenuItem Text="Tạm vắng" Value="Tạm vắng"></asp:MenuItem>
+            <asp:MenuItem Text="Hộ khẩu" Value="Hộ khẩu" NavigateUrl="~/Pages/Hokhau.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Nhân khẩu" Value="Nhân khẩu" NavigateUrl="~/Pages/Nhankhau.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Tạm trú" Value="Tạm trú" NavigateUrl="~/Pages/TamTru.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Tạm vắng" Value="Tạm vắng" NavigateUrl="~/Pages/Tamvang.aspx"></asp:MenuItem>
         </Items>
 
         <StaticHoverStyle CssClass="hover"></StaticHoverStyle>

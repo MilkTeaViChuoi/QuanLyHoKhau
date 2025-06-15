@@ -13,37 +13,31 @@
     
     <nav class="sidebar-nav">
         <ul class="nav-list">
-            <li class="nav-item active">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-tachometer-alt"></i>
-                    <span class="nav-text">Dashboard</span>
-                </a>
-            </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="QuanLyHoKhau.aspx" class="nav-link">
                     <i class="fas fa-chart-bar"></i>
                     <span class="nav-text">Quản lý hộ khẩu</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="QuanLyTamTru.aspx" class="nav-link">
                     <i class="fas fa-users"></i>
                     <span class="nav-text">Quản lý tạm trú</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="fas fa-shopping-cart"></i>
+                <a href="QuanLyTamVang.aspx" class="nav-link">
+                    <i class="fas fa-plane-slash"></i>
                     <span class="nav-text">Quản lý tạm vắng</span>
                 </a>
             </li>
         </ul>
         
         <div class="nav-divider"></div>
-        
-       
     </nav>
 </div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 <style>
 .sidebar {
@@ -126,12 +120,6 @@
     transform: translateX(4px);
 }
 
-.nav-item.active .nav-link {
-    background-color: #4a90e2;
-    color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
 .nav-link i {
     font-size: 18px;
     margin-right: 16px;
@@ -151,6 +139,4 @@
     background-color: #cfd8dc;
     margin: 20px 12px;
 }
-
-
 </style>

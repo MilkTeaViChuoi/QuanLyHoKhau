@@ -11,34 +11,25 @@ namespace QuanLyHoKhau.Pages
 {
 
 
-    public partial class Trangchu
+    public partial class TamvangtheoHokhau
     {
 
         /// <summary>
-        /// lbSohogiadinh control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbSohogiadinh;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lbSoNhanKhau control.
+        /// grvTamvangtheoHokhau control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbSoNhanKhau;
-
-        /// <summary>
-        /// lbLinhTinh control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbLinhTinh;
+        protected global::System.Web.UI.WebControls.GridView grvTamvangtheoHokhau;
     }
 }
